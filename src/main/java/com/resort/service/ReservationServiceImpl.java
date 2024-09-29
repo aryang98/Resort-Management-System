@@ -166,7 +166,7 @@ public class ReservationServiceImpl implements IReservationService {
 					roomRepo.save(filteredRoom);
 					// Save the reservation details to the reservation repository
 					reservationRepo.save(reservation);
-					// Set a succ"ess message indicating the reservation was successful
+					// Set a success message indicating the reservation was successful
 					message = "Reservation successful";
 					return message;
 				} else {

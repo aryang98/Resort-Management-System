@@ -1,4 +1,4 @@
-package com.resort.service;
+package com.resort.serviceImpl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,6 +13,7 @@ import com.resort.exception.AccessDeniedException;
 import com.resort.exception.InvalidCredentialsException;
 import com.resort.repository.IRoomRepo;
 import com.resort.repository.IUserRepo;
+import com.resort.service.IRoomService;
 
 //Annotation indicating that this class is a Spring service
 @Service

@@ -11,7 +11,8 @@ import com.resort.dto.UserRequest;
 import com.resort.entity.UserEntity;
 import com.resort.exception.InvalidCredentialsException;
 import com.resort.repository.IUserRepo;
-import com.resort.service.LoginServiceImpl;
+import com.resort.serviceImpl.LoginServiceImpl;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyLong;
 

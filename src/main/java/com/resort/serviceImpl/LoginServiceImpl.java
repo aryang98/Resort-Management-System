@@ -1,4 +1,4 @@
-package com.resort.service;
+package com.resort.serviceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -7,6 +7,7 @@ import com.resort.dto.UserRequest;
 import com.resort.entity.UserEntity;
 import com.resort.exception.InvalidCredentialsException;
 import com.resort.repository.IUserRepo;
+import com.resort.service.ILoginService;
 
 //Annotation indicating that this class is a Spring service
 @Service

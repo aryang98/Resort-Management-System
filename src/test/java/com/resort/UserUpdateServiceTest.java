@@ -10,7 +10,7 @@ import org.mockito.MockitoAnnotations;
 import com.resort.dto.UserRequest;
 import com.resort.entity.UserEntity;
 import com.resort.repository.IUserRepo;
-import com.resort.service.UserServiceImpl;
+import com.resort.serviceImpl.UserServiceImpl;
 
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.junit.jupiter.api.Assertions.assertEquals;

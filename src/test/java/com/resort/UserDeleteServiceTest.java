@@ -7,7 +7,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import com.resort.repository.IUserRepo;
-import com.resort.service.UserServiceImpl;
+import com.resort.serviceImpl.UserServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.verify;

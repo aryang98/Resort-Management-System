@@ -1,4 +1,4 @@
-package com.resort.service;
+package com.resort.serviceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +18,7 @@ import com.resort.exception.InvalidReservationException;
 import com.resort.repository.IReservationRepo;
 import com.resort.repository.IRoomRepo;
 import com.resort.repository.IUserRepo;
+import com.resort.service.IReservationService;
 
 //Annotation indicating that this class is a service component managed by Spring
 @Service

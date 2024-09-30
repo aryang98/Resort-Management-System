@@ -13,7 +13,7 @@ import com.resort.entity.UserEntity;
 import com.resort.exception.AccessDeniedException;
 import com.resort.repository.IRoomRepo;
 import com.resort.repository.IUserRepo;
-import com.resort.service.RoomServiceImpl;
+import com.resort.serviceImpl.RoomServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

@@ -50,7 +50,7 @@ public class UserController {
 	}
 
 	@DeleteMapping("/user/{id}") // Mapping for DELETE request to "/home/user/{id}"
-	public ResponseEntity<GeneralResponseDTO> deleteUser(@PathVariable("id") Long id) { // Method to delete user by ID
+	public ResponseEntity<GeneralResponseDTO> deleteUser(@PathVariable Long id) { // Method to delete user by ID
 		String message = userService.deleteById(id); // Deleting user by ID via userService
 		GeneralResponseDTO responseDTO = new GeneralResponseDTO("message", message); // Creating response DTO object
 		// Returning response with HTTP status

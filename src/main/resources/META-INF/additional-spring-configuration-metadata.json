@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "Specify",
+    "type": "java.lang.String",
+    "description": "A description for 'Specify'"
+  },
+  {
+    "name": "spring.jpa.provider",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.provider'"
+  },
+  {
+    "name": "management.endpoints.web.exposure.include",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoints.web.exposure.include'"
+  }
+]}
